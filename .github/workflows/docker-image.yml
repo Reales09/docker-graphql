@@ -48,5 +48,5 @@ jobs:
       run: |
         docker push reales09/docker-graphql:$NEW_VERSION
         docker push reales09/docker-graphql:latest
-    - name: Build the Docker image
+#     - name: Build the Docker image
 #       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
